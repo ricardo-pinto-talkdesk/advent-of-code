@@ -5,7 +5,7 @@
 
 const std = @import("std");
 
-const INPUT_PATH: []const u8 = "aoc-2025-1.txt";
+const INPUT_PATH: []const u8 = "inputs/aoc-2025-1.txt";
 
 pub fn main() !void {
     // Init allocator
