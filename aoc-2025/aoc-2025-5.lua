@@ -6,7 +6,7 @@
 INPUT_PATH = "inputs/aoc-2025-5.txt"
 
 local function bool_to_int(b)
-  return b and 1 or 0
+    return b and 1 or 0
 end
 
 -- ranges_map maps min to max
