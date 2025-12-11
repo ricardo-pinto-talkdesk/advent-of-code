@@ -1,9 +1,9 @@
 -- Advent of Code 2025, day 5
 -- https://adventofcode.com/2025/day/5
 -- Using Lua 5.4.8
--- $ lua aoc-2025-5.lua
+-- $ lua aoc_2025_5.lua
 
-INPUT_PATH = "inputs/aoc-2025-5.txt"
+INPUT_PATH = "inputs/aoc_2025_5.txt"
 
 local function bool_to_int(b)
     return b and 1 or 0

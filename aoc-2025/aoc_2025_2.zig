@@ -1,11 +1,11 @@
 // Advent of Code 2025, day 2
 // https://adventofcode.com/2025/day/2
 // Using zig 0.15.2
-// $ zig run aoc-2025-2.zig -O ReleaseFast
+// $ zig run aoc_2025_2.zig -O ReleaseFast
 
 const std = @import("std");
 
-const INPUT_PATH: []const u8 = "inputs/aoc-2025-2.txt";
+const INPUT_PATH: []const u8 = "inputs/aoc_2025_2.txt";
 
 pub fn main() !void {
     // Init allocator

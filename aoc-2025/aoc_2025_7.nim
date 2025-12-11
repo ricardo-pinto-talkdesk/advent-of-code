@@ -4,9 +4,9 @@
 # $ nim compile --run -d:release --deepcopy:on aoc_2025_7.nim
 
 import std/strutils
-import sequtils
+import std/sequtils
 
-const INPUT_PATH = "inputs/aoc-2025-7.txt"
+const INPUT_PATH = "inputs/aoc_2025_7.txt"
 
 proc readLinesStripped(): seq[string] =
   var myLines: seq[string] = @[]

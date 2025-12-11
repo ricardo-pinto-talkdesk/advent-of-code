@@ -1,9 +1,9 @@
 -- Advent of Code 2025, day 6
 -- https://adventofcode.com/2025/day/6
 -- Using Lua 5.4.8
--- $ lua aoc-2025-6.lua
+-- $ lua aoc_2025_6.lua
 
-INPUT_PATH = "inputs/aoc-2025-6.txt"
+INPUT_PATH = "inputs/aoc_2025_6.txt"
 
 local function reduce(numbers, op)
     if op == '+' then

@@ -1,9 +1,9 @@
 # Advent of Code 2025, day 3
 # https://adventofcode.com/2025/day/3
 # Using ruby 3.4.7
-# $ ruby aoc-2025-3.rb
+# $ ruby aoc_2025_3.rb
 
-INPUT_PATH = "inputs/aoc-2025-3.txt"
+INPUT_PATH = "inputs/aoc_2025_3.txt"
 
 def get_max_char(str)
     if str.length == 0

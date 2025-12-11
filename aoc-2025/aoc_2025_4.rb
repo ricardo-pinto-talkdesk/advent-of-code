@@ -1,9 +1,9 @@
 # Advent of Code 2025, day 4
 # https://adventofcode.com/2025/day/4
 # Using ruby 3.4.7
-# $ ruby aoc-2025-4.rb
+# $ ruby aoc_2025_4.rb
 
-INPUT_PATH = "inputs/aoc-2025-4.txt"
+INPUT_PATH = "inputs/aoc_2025_4.txt"
 
 def count_adjacent_rolls(lines, line_idx, char_idx)
     count = 0
